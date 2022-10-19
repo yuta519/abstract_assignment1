@@ -1,10 +1,10 @@
 public class Cylinder extends Shape{
-    private double height;
     private double radius;
+    private double height;
 
-    public Cylinder(double w, double h) {
+    public Cylinder(double r, double h) {
+        this.radius = r;
         this.height = h;
-        this.radius = w;
     }
 
     @Override
